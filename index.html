@@ -8,6 +8,9 @@
   <link rel="stylesheet" type="text/css" href="resources/style/style.css">
   <link rel="icon" type="image/jpg" href="resources/photos/favicon.jpg" />
   <script src="resources/javascript/main.js"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,23 +32,43 @@
   <!-- Presentation Image -->
   <div class="landing-photo">
     <img src="resources/photos/landing-page2.jpg" alt="landing-image">
+    <h1 class="quote">Motivational Quote</h1>
   </div>
 
-  <div class="description">
-    <p>
-      Sala fitness ( 400mp ) dotata cu aparatura de ultima generatie atat pe zona cardio cat si pe forta, in sala
-      mai este amenajat un spatiu destinat kickboxingului .Pretul abonamentelor este accesibil zonei. Sala de
-      fitness are 2 instructori calificati Andrei si Cristi , tineri cu cunostinte vaste in domeniu care va vor
-      indruma si ajuta sa va faceti antrenamentul corect.
-    </p>
+  <!-- Description -->
+  <div class="description flexbox-container">
+    <div class="flexbox-item flexbox-item-1">
+      <p id="about-us-title">Despre noi:</p>
+      <p>
+        Sala fitness ( 400mp ) dotata cu aparatura de ultima generatie atat pe zona cardio cat si pe forta, in sala
+        mai este amenajat un spatiu destinat kickboxingului .Pretul abonamentelor este accesibil zonei. Sala de
+        fitness are 2 instructori calificati Andrei si Cristi , tineri cu cunostinte vaste in domeniu care va vor
+        indruma si ajuta sa va faceti antrenamentul corect.
+      </p>
+    </div>
+    <div class="flexbox-item">
+      <img id="description-photo" src="resources/photos/description2.jpg" alt="description">
+    </div>
+
   </div>
 
+  <!-- Trainers -->
+  <h1 class="subtitle">Antrenori personali</h1>
   <div class="trainers flexbox-container">
     <div class="flexbox-item">
       <div class="name">
         <h3>Andrei</h3>
       </div>
       <img class="trainer-photo" src="resources/photos/andrei.jpg" alt="Andrei">
+    </div>
+    <div class="about-trainers flexbox-item">
+      <h3>Rolurile unui antrenor:</h3>
+      <ul>
+        <li>Personal trainerul poate să-ți evalueze corect progresul</li>
+        <li>Antrenorul personal te poate corecta atunci când greșești</li>
+        <li>Ai parte de sfaturi și îndrumări care depășesc exercițiile din sala de fitness</li>
+        <li>Poți să înveți ce tipuri de exerciții se potrivesc pentru tine și le poți aplica pe cont propriu</li>
+      </ul>
     </div>
     <div class="flexbox-item">
       <div class="name">
@@ -55,22 +78,41 @@
     </div>
   </div>
 
+  <!-- Contact -->
+  <h1 class="subtitle">Contact</h1>
   <div class="contact flexbox-container">
     <div class="media flexbox-item">
-      Telefon: <br>
-      Facebook:
+      <h1>Contacteaza-ne:</h1>
+      <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+      </svg> <span style="font-size: 30px;">0722 610 468</span>
+      <br>
+      <a href="https://www.facebook.com/crisgymfitness"> <img
+          src="https://img.icons8.com/color/48/000000/facebook-new.png" /></a>
+      <br>
+      <a href="https://www.instagram.com/crisgymfitnessgorjului/"><img
+          src="https://img.icons8.com/color/48/000000/instagram-new.png" /></a>
     </div>
+
     <div class="map flexbox-item">
-      <iframe
+      <iframe id="map"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1957.1275549547038!2d26.020411067071553!3d44.435235302640585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201ae7d7e2dad%3A0x21bf7b60598ab133!2sCris%20Gym%20Fitness!5e0!3m2!1sro!2sro!4v1597503870619!5m2!1sro!2sro"
-        width="600" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-        tabindex="0"></iframe>
+        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
   </div>
 </body>
 
 <footer>
-  @crisGymFitness
+  <div class="footer flexbox-container">
+    <div class="flexbox-item">
+      @crisGymFitness
+    </div>
+    <div class="flexbox-item">
+      <a href="https://icons8.com/icon/118502/facebook">Facebook & Instagram icon by Icons8</a>
+    </div>
+  </div>
 </footer>
 
 </html>
