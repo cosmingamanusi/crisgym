@@ -169,6 +169,8 @@ body, h1{
 .map{
   width: 50%;
   height: 300px;
+  border: solid;
+  border-width: 2px;
 }
 
 #map{
@@ -186,5 +188,10 @@ body, h1{
 .footer{
   height: 50px;
   background-color: black;
+  color: white;
+}
+
+.footer a{
+  text-decoration: none;
   color: white;
 }
