@@ -5,7 +5,7 @@ window.addEventListener("scroll", () => {
     if (scroll > 0) {
         navBar.style.backgroundColor = "black"
     } else {
-        navBar.style.backgroundColor = "rgba(0,0,0,0.7)"
+        navBar.style.backgroundColor = "rgba(0,0,0,0.5)"
         navBar.style.transitionDuration = "0.5s"
     }
 })
