@@ -109,7 +109,6 @@ hr {
     font-size: 20px;
     display: flex;
     justify-content: center;
-    /* color: white; */
   }
 
   .description .flexbox-item-1{
@@ -295,6 +294,13 @@ hr {
   /*---------------------------------------
     Descriere
   ---------------------------------------*/
+  .description-gallery p{
+    margin: 0;
+    padding: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
 
   /*---------------------------------------
     Photo Grid
@@ -303,13 +309,22 @@ hr {
     padding: 20px;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(5, 10vw);
+    grid-template-columns: repeat(5, 15vw);
     grid-template-rows: repeat(auto,10vw);
     grid-gap: 10px;
   }
 
+  .grid-item{
+    overflow: hidden;
+  }
+  
   .gallery-image{
     width: 100%;
+    transition: 0.5s all ease-in-out; 
+  }
+
+  .gallery-image:hover{
+    transform: scale(1.5);
   }
 /*---------------------------------------
     Footer
