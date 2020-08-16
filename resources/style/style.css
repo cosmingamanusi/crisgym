@@ -1,10 +1,28 @@
+html{
+  scroll-behavior:smooth;
+}
+
 *{
   font-family: 'Alata', sans-serif;
+  text-decoration: none;
+}
+
+* a{
+  color: white;
 }
 
 body, h1{
   margin: 0px;
   padding: 0px;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;              
+  background-color:black; 
+  height: 2px;
 }
 
 /*---------------------------------------
@@ -26,10 +44,6 @@ body, h1{
   top: 0;
   height: 90px;
   z-index: 900;
-}
-
-.logo{
-  /* margin-left: 10px; */
 }
 
 .title{
@@ -65,6 +79,11 @@ body, h1{
   object-fit: cover;
   width: 100%;
   height: 100vh;
+  -webkit-filter: blur(3px); 
+  -moz-filter: blur(3px); 
+  -o-filter: blur(3px); 
+  -ms-filter: blur(3px);
+  filter: blur(3px); 
 }
 
 .quote {
@@ -73,7 +92,8 @@ body, h1{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
-  font-size: 100px;
+  font-size: 120px;
+  color: rgb(3, 182, 143);
 }
 
 /*---------------------------------------
@@ -129,12 +149,12 @@ body, h1{
   background-image: url("/resources/photos/description-background.jpg");
 }
 
-.trainers .flexbox-item{
+.trainers-roles .flexbox-item{
   width: 40%;
   margin-bottom: 5%;
 }
 
-.trainers .flexbox-item img{
+.trainers-roles .flexbox-item img{
   max-width: 100%;
 }
 
@@ -183,6 +203,93 @@ body, h1{
 }
 
 /*---------------------------------------
+    Trainers page
+---------------------------------------*/
+
+.nav-bar-trainers{
+  background-color: rgba(0,0,0,1);
+  position: sticky;
+  top: 0;
+  height: 90px;
+  z-index: 900;
+}
+
+/*---------------------------------------
+    Trainers page - landing photo
+---------------------------------------*/
+
+.landing-photo-trainers{
+  margin-top: -90px;
+  height: 50vh;
+  text-align: center;
+  color: white;
+}
+
+.landing-photo-trainers img{
+  object-fit: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.quote-trainers {
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  transform: translate(-15%, -15%);
+  z-index: 100;
+  font-size: 100px;
+}
+
+/*---------------------------------------
+    Trainers page - trainers presentation
+---------------------------------------*/
+
+.trainers{
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.trainers p{
+  margin: 5px auto;
+  font-size: 40px;
+  color: rgb(3, 182, 143);
+  padding: 5px;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.trainer-1{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 97%;
+}
+
+.trainer-1 img{
+  width: 400px;
+}
+
+.trainer-2{
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 97%;
+}
+
+.trainer-2 img{
+  width: 400px;
+}
+
+.trainers-description{
+  padding: 20px 10%;
+  font-size: 20px;
+}
+
+/*---------------------------------------
     Footer
 ---------------------------------------*/
 .footer{
@@ -191,7 +298,3 @@ body, h1{
   color: white;
 }
 
-.footer a{
-  text-decoration: none;
-  color: white;
-}

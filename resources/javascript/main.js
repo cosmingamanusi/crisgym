@@ -1,7 +1,8 @@
 // Navbar opacity based on scroll position
+
 window.addEventListener("scroll", () => {
     const navBar = document.querySelector(".nav-bar");
-    var scroll = this.scrollY;
+    scroll = this.scrollY;
     if (scroll > 0) {
         navBar.style.backgroundColor = "black"
     } else {
