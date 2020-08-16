@@ -32,7 +32,7 @@ hr {
   /*---------------------------------------
       Navbar
   ---------------------------------------*/
-  .flexbox-container{
+  .flexbox-container-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -68,6 +68,12 @@ hr {
   /*---------------------------------------
       Landing-photo
   ---------------------------------------*/
+  .flexbox-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .landing-photo{
     margin-top: -90px;
     height: 100vh;
@@ -125,6 +131,7 @@ hr {
   #description-photo{
     padding: 20px 0;
     max-width: 100%;
+    width: 100%;
   }
 
   #about-us-title{
@@ -350,6 +357,9 @@ hr {
     Media Querry
 ---------------------------------------*/
 @media only screen and (max-width: 765px) {
+  /*---------------------------------------
+    Homepage - DropDown
+  ---------------------------------------*/
   .menu{
     display: none;
   }
@@ -381,6 +391,39 @@ hr {
     justify-content: center;
   }
 
+  /*---------------------------------------
+    Homepage - Despre Noi
+  ---------------------------------------*/
+  .flexbox-container{
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .description .flexbox-item{
+    width: 90%;
+  }
+
+  /*---------------------------------------
+    Homepage - Trainers
+  ---------------------------------------*/
+  .trainers-roles .flexbox-item{
+    width: 90%;
+  }
+
+  /*---------------------------------------
+    Homepage - Map
+  ---------------------------------------*/
+  .map{
+    width: unset;
+  }
+
+  /*---------------------------------------
+    Homepage - Footer
+  ---------------------------------------*/
+  .footer{
+    /* height: 80px; */
+    /* trb modificat */
+  }
 }
 
 @media only screen and (min-width: 765px) {
