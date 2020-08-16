@@ -29,266 +29,288 @@ hr {
     Homepage
 ---------------------------------------*/
 
-/*---------------------------------------
-    Navbar
----------------------------------------*/
-.flexbox-container{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+  /*---------------------------------------
+      Navbar
+  ---------------------------------------*/
+  .flexbox-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-.nav-bar{
-  background-color: rgba(0,0,0,0.7);
-  position: sticky;
-  top: 0;
-  height: 90px;
-  z-index: 900;
-}
+  .nav-bar{
+    background-color: rgba(0,0,0,0.7);
+    position: sticky;
+    top: 0;
+    height: 90px;
+    z-index: 900;
+  }
 
-.title{
-  color: white;
-}
+  .title{
+    color: white;
+  }
 
-.menu{
-  color: white;
-  /* margin-right: 10px; */
-}
+  .menu{
+    color: white;
+    /* margin-right: 10px; */
+  }
 
-.menu ul{
-  padding: 0;
-}
+  .menu ul{
+    padding: 0;
+  }
 
-.menu ul li{
-  display: inline-block;
-  margin: 0 20px 0;
-  font-size: 20px;
-}
+  .menu ul li{
+    display: inline-block;
+    margin: 0 20px 0;
+    font-size: 20px;
+  }
 
-/*---------------------------------------
-    Landing-photo
----------------------------------------*/
-.landing-photo{
-  margin-top: -90px;
-  height: 100vh;
-  text-align: center;
-  color: white;
-}
+  /*---------------------------------------
+      Landing-photo
+  ---------------------------------------*/
+  .landing-photo{
+    margin-top: -90px;
+    height: 100vh;
+    text-align: center;
+    color: white;
+  }
 
-.landing-photo img{
-  object-fit: cover;
-  width: 100%;
-  height: 100vh;
-  -webkit-filter: blur(3px); 
-  -moz-filter: blur(3px); 
-  -o-filter: blur(3px); 
-  -ms-filter: blur(3px);
-  filter: blur(3px); 
-}
+  .landing-photo img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    -webkit-filter: blur(3px); 
+    -moz-filter: blur(3px); 
+    -o-filter: blur(3px); 
+    -ms-filter: blur(3px);
+    filter: blur(3px); 
+  }
 
-.quote {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-  font-size: 120px;
-  color: rgb(3, 182, 143);
-}
+  .quote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    font-size: 120px;
+    color: rgb(3, 182, 143);
+  }
 
-/*---------------------------------------
-    Description
----------------------------------------*/
-.description{
-  margin-top: 2px;
-}
+  /*---------------------------------------
+      Description
+  ---------------------------------------*/
+  .description{
+    margin-top: 2px;
+  }
 
-.description p{
-  margin: 0;
-  padding: 10px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  /* color: white; */
-}
+  .description p{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    /* color: white; */
+  }
 
-.description .flexbox-item-1{
-  border: solid;
-  border-color: black;
-  border-width: 1px;
-  padding: 20px;
-}
+  .description .flexbox-item-1{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 20px;
+  }
 
-.description .flexbox-item{
-  width: 40%;
-}
+  .description .flexbox-item{
+    width: 40%;
+  }
 
-#description-photo{
-  padding: 20px 0;
-  max-width: 100%;
-}
+  #description-photo{
+    padding: 20px 0;
+    max-width: 100%;
+  }
 
-#about-us-title{
-  font-size: 30px;
-  color: rgb(3, 182, 143);
-  font-weight: bold;
-}
+  #about-us-title{
+    font-size: 30px;
+    color: rgb(3, 182, 143);
+    font-weight: bold;
+  }
 
-/*---------------------------------------
-    Trainers
----------------------------------------*/
-.subtitle{
-  display: flex;
-  justify-content: center;
-  font-size: 35px;
-  margin: 10px 0;
-  color: rgb(3, 182, 143);
-}
+  /*---------------------------------------
+      Trainers
+  ---------------------------------------*/
+  .subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 10px 0;
+    color: rgb(3, 182, 143);
+  }
 
-.trainers-background{
-  background-image: url("/resources/photos/description-background.jpg");
-}
+  .trainers-background{
+    background-image: url("/resources/photos/description-background.jpg");
+  }
 
-.trainers-roles .flexbox-item{
-  width: 40%;
-  margin-bottom: 5%;
-}
+  .trainers-roles .flexbox-item{
+    width: 40%;
+    margin-bottom: 5%;
+  }
 
-.trainers-roles .flexbox-item img{
-  max-width: 100%;
-}
+  .trainers-roles .flexbox-item img{
+    max-width: 100%;
+  }
 
-.name{
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
-}
+  .name{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
 
-.about-trainers{
-  font-size: 20px;
-  color: white;
-}
+  .about-trainers{
+    font-size: 20px;
+    color: white;
+  }
 
-.about-trainers h3{
-  display: flex;
-  justify-content: center;
-}
+  .about-trainers h3{
+    display: flex;
+    justify-content: center;
+  }
 
-.link-to-trainers{
-  font-size: 40px;
-  color: white;
-}
+  .link-to-trainers{
+    font-size: 40px;
+    color: white;
+  }
 
-/*---------------------------------------
-    Contact
----------------------------------------*/
-.contact{
-  margin-bottom: 20px;
-}
+  /*---------------------------------------
+      Contact
+  ---------------------------------------*/
+  .contact{
+    margin-bottom: 20px;
+  }
 
-.map{
-  width: 50%;
-  height: 300px;
-  border: solid;
-  border-width: 2px;
-}
+  .map{
+    width: 50%;
+    height: 300px;
+    border: solid;
+    border-width: 2px;
+  }
 
-#map{
-  width: 100%;
-  height: 100%;
-}
+  #map{
+    width: 100%;
+    height: 100%;
+  }
 
-.media h1{
-  margin-bottom: 20px;
-}
+  .media h1{
+    margin-bottom: 20px;
+  }
 
 /*---------------------------------------
     Trainers page
 ---------------------------------------*/
 
-.nav-bar-trainers{
-  background-color: rgba(0,0,0,1);
-  position: sticky;
-  top: 0;
-  height: 90px;
-  z-index: 900;
-}
+  .nav-bar-black{
+    background-color: rgba(0,0,0,1);
+    position: sticky;
+    top: 0;
+    height: 90px;
+    z-index: 900;
+  }
+
+  /*---------------------------------------
+      Trainers page - landing photo
+  ---------------------------------------*/
+
+  .landing-photo-trainers{
+    margin-top: -90px;
+    height: 50vh;
+    text-align: center;
+    color: white;
+  }
+
+  .landing-photo-trainers img{
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .quote-trainers {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    transform: translate(-15%, -15%);
+    z-index: 100;
+    font-size: 100px;
+  }
+
+  /*---------------------------------------
+      Trainers page - trainers presentation
+  ---------------------------------------*/
+
+  .trainers{
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .trainers p{
+    margin: 5px auto;
+    font-size: 40px;
+    color: rgb(3, 182, 143);
+    padding: 5px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+  }
+
+  .trainer-1{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 97%;
+  }
+
+  .trainer-1 img{
+    width: 400px;
+  }
+
+  .trainer-2{
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 97%;
+  }
+
+  .trainer-2 img{
+    width: 400px;
+  }
+
+  .trainers-description{
+    padding: 20px 10%;
+    font-size: 20px;
+  }
 
 /*---------------------------------------
-    Trainers page - landing photo
+    Photo Gallery Page
 ---------------------------------------*/
+  /*---------------------------------------
+    Descriere
+  ---------------------------------------*/
 
-.landing-photo-trainers{
-  margin-top: -90px;
-  height: 50vh;
-  text-align: center;
-  color: white;
-}
+  /*---------------------------------------
+    Photo Grid
+  ---------------------------------------*/
+  .grid-container{
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 10vw);
+    grid-template-rows: repeat(auto,10vw);
+    grid-gap: 10px;
+  }
 
-.landing-photo-trainers img{
-  object-fit: cover;
-  width: 100%;
-  height: 50vh;
-}
-
-.quote-trainers {
-  position: absolute;
-  top: 20%;
-  left: 42%;
-  transform: translate(-15%, -15%);
-  z-index: 100;
-  font-size: 100px;
-}
-
-/*---------------------------------------
-    Trainers page - trainers presentation
----------------------------------------*/
-
-.trainers{
-  padding: 20px;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.trainers p{
-  margin: 5px auto;
-  font-size: 40px;
-  color: rgb(3, 182, 143);
-  padding: 5px;
-  border: solid;
-  border-color: black;
-  border-width: 2px;
-}
-
-.trainer-1{
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 97%;
-}
-
-.trainer-1 img{
-  width: 400px;
-}
-
-.trainer-2{
-  padding: 20px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  width: 97%;
-}
-
-.trainer-2 img{
-  width: 400px;
-}
-
-.trainers-description{
-  padding: 20px 10%;
-  font-size: 20px;
-}
-
+  .gallery-image{
+    width: 100%;
+  }
 /*---------------------------------------
     Footer
 ---------------------------------------*/
@@ -297,4 +319,3 @@ hr {
   background-color: black;
   color: white;
 }
-
