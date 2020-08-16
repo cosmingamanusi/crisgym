@@ -98,7 +98,7 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100;
-    font-size: 120px;
+    font-size: 10vw;
     color: rgb(3, 182, 143);
   }
 
@@ -264,6 +264,7 @@ hr {
     border: solid;
     border-color: black;
     border-width: 2px;
+    text-align: center;
   }
 
   .trainer-1{
@@ -307,6 +308,7 @@ hr {
     font-size: 40px;
     display: flex;
     justify-content: center;
+    text-align: center;
   }
 
   /*---------------------------------------
@@ -421,8 +423,35 @@ hr {
     Homepage - Footer
   ---------------------------------------*/
   .footer{
-    /* height: 80px; */
-    /* trb modificat */
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    overflow: hidden;
+  }
+
+  /*---------------------------------------
+    Trainers
+  ---------------------------------------*/
+  .trainer-1, .trainer-2{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .trainer-1 img, .trainer-2 img{
+    width: 100%;
+  }
+
+  /*---------------------------------------
+    Photo Gallery
+  ---------------------------------------*/
+  .grid-container{
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 35vw);
+    grid-template-rows: repeat(auto,10vw);
+    grid-gap: 10px;
   }
 }
 
