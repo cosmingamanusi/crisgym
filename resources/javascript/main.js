@@ -10,3 +10,13 @@ window.addEventListener("scroll", () => {
         navBar.style.transitionDuration = "0.5s"
     }
 })
+
+const dropdownContent = document.querySelector(".dropdown-content")
+const dropdownLi = document.querySelector(".dropdown-li")
+document.querySelector(".dropdown").addEventListener("click", () => {
+    if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none"
+    } else {
+        dropdownContent.style.display = "block"
+    }
+})

@@ -61,7 +61,7 @@ hr {
 
   .menu ul li{
     display: inline-block;
-    margin: 0 20px 0;
+    margin: 0 10px 0;
     font-size: 20px;
   }
 
@@ -333,4 +333,58 @@ hr {
   height: 50px;
   background-color: black;
   color: white;
+}
+
+/*---------------------------------------
+    Dropdown Navbar
+---------------------------------------*/
+.dropdown{
+  display: none;
+}
+
+.dropdown-content{
+  display: none;
+}
+
+/*---------------------------------------
+    Media Querry
+---------------------------------------*/
+@media only screen and (max-width: 765px) {
+  .menu{
+    display: none;
+  }
+
+  .dropdown{
+    display: flex;
+    position: relative;
+    z-index: 999;
+  }
+
+  .dropdown-content{
+    position: absolute;
+    width: 70vw;
+    margin-top: 70px;
+  }
+
+  .dropdown-content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 50px 0 0 0;
+    background-color: rgba(0,0,0,0.8);  }
+
+  .dropdown-content ul li{
+    padding-left: 10px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (min-width: 765px) {
+  .dropdown-content{
+    display: none !important;
+  }
 }
