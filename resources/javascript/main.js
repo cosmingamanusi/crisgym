@@ -20,3 +20,12 @@ document.querySelector(".dropdown").addEventListener("click", () => {
         dropdownContent.style.display = "block"
     }
 })
+
+window.onload = function () {
+    var divToHide = document.getElementById('dropdown-content');
+    document.onclick = function (e) {
+        if (e.target.id !== 'dropdown-content' && e.target.id !== 'dropdown-menu') {
+            divToHide.style.display = 'none';
+        }
+    };
+};
