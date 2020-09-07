@@ -187,6 +187,8 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
     z-index: 100;
     font-size: 5vw;
     color: rgb(3, 182, 143);
+    text-shadow: white 0px 0px 10px;
+    -webkit-text-stroke: 2px black; /* width and color */
   }
 
   /*---------------------------------------
@@ -382,6 +384,7 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
   .trainers-description{
     padding: 20px 10%;
     font-size: 20px;
+    text-align: center;
   }
   
   .flexbox-container-trainers{
@@ -566,12 +569,16 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
     Photo Gallery
   ---------------------------------------*/
   .grid-container{
-    padding: 20px;
+    padding: 20px 10px;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 35vw);
+    grid-template-columns: repeat(1, 100%);
     grid-template-rows: repeat(auto,10vw);
     grid-gap: 10px;
+  }
+  
+  .gallery-image{
+    width: 100% !important;
   }
 }
 
