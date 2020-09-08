@@ -13,13 +13,13 @@ window.addEventListener("scroll", () => {
 
 const dropdownContent = document.querySelector(".dropdown-content")
 const dropdownLi = document.querySelector(".dropdown-li")
-document.querySelector(".dropdown").addEventListener("click", () => {
+document.querySelector("#dropdown").onclick = function () {
     if (dropdownContent.style.display === "block") {
         dropdownContent.style.display = "none"
     } else {
         dropdownContent.style.display = "block"
     }
-})
+};
 
 window.onload = function () {
     var divToHide = document.getElementById('dropdown-content');
