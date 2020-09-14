@@ -489,6 +489,7 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
   
   .gallery-image{
     width: 100%;
+    transition: 0.5s all;
   }
 
   .gallery-image:hover{
