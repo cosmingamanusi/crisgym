@@ -22,10 +22,23 @@ document.querySelector("#dropdown").onclick = function () {
 };
 
 window.onload = function () {
-    var divToHide = document.getElementById('dropdown-content');
+    var divToHide = document.querySelector('#dropdown-content');
     document.onclick = function (e) {
         if (e.target.id !== 'dropdown-content' && e.target.id !== 'dropdown-menu') {
             divToHide.style.display = 'none';
         }
     };
 };
+
+const overlay = document.getElementById('overlay');
+
+function showMyImage(caller) {
+    var path = '<img src="/resources/photos/gallery/' + caller.id + '.jpeg">';
+    overlay.innerHTML = path;
+    overlay.style.display = 'block';
+}
+
+function hideMyImage() {
+    overlay.style.display = 'none';
+}
+
