@@ -1,5 +1,4 @@
 // Navbar opacity based on scroll position
-
 window.addEventListener("scroll", () => {
     const navBar = document.querySelector(".nav-bar");
     scroll = this.scrollY;
@@ -14,6 +13,7 @@ window.addEventListener("scroll", () => {
     }
 })
 
+// dropdown show and hide
 const dropdownContent = document.querySelector(".dropdown-content")
 const dropdownLi = document.querySelector(".dropdown-li")
 document.querySelector("#dropdown").onclick = function () {
@@ -24,6 +24,7 @@ document.querySelector("#dropdown").onclick = function () {
     }
 };
 
+// dropdown hide on window click
 window.onload = function () {
     var divToHide = document.querySelector('#dropdown-content');
     document.onclick = function (e) {
@@ -33,14 +34,15 @@ window.onload = function () {
     };
 };
 
+// custom path based on caller id
 const overlay = document.getElementById('overlay');
-
 function showMyImage(caller) {
     var path = '<img src="/resources/photos/gallery/' + caller.id + '.jpeg">';
     overlay.innerHTML = path;
     overlay.style.display = 'block';
 }
 
+// hide on window click
 function hideMyImage() {
     overlay.style.display = 'none';
 }
