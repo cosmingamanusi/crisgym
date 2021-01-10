@@ -231,7 +231,7 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
     padding: 20px;
   }
 
-  .description .flexbox-item-2{
+  .description .flexbox-item-2-program{
     border: solid;
     border-color: black;
     border-width: 1px;
@@ -251,6 +251,12 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
   .about-us-title{
     font-size: 30px;
     color: rgb(3, 182, 143);
+    font-weight: bold;
+  }
+
+  .about-us-title-black{
+    font-size: 30px;
+    color: black;
     font-weight: bold;
   }
 
@@ -569,6 +575,13 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
   flex-direction: column;
 }
 
+.titlu-abonament-superoferta{
+  color: rgb(3, 182, 143);
+}
+.pret-abonament-superoferta{
+  color: rgb(3, 182, 143);
+}
+
 /*---------------------------------------
     404 Page
 ---------------------------------------*/
@@ -689,11 +702,11 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
     width: 90%;
   }
 
-  /* .description .flexbox-item-2{
+  .description .flexbox-item-2{
     display: flex;
     justify-content: center;
     width: 110%;
-  } */
+  }
 
   /*---------------------------------------
     Homepage - Trainers
