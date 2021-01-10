@@ -171,6 +171,13 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
     align-items: center;
   }
 
+  .flexbox-container-collumn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .landing-photo{
     margin-top: -90px;
     height: 100vh;
@@ -224,8 +231,15 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
     padding: 20px;
   }
 
+  .description .flexbox-item-2{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 20px;
+  }
+
   .description .flexbox-item{
-    width: 40%;
+    width: 70%;
   }
 
   #description-photo{
@@ -234,7 +248,7 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
     width: 100%;
   }
 
-  #about-us-title{
+  .about-us-title{
     font-size: 30px;
     color: rgb(3, 182, 143);
     font-weight: bold;
@@ -533,9 +547,20 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
 }
 
 /*---------------------------------------
-    Program Page
+    Program and Price Page
 ---------------------------------------*/
-#program li{
+.flexbox-item-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexbox-item-list .flexbox-item-list-item{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.flexbox-item-list li{
   margin: 10px 0;
 }
 
@@ -664,11 +689,11 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
     width: 90%;
   }
 
-  .description .flexbox-item-2{
+  /* .description .flexbox-item-2{
     display: flex;
     justify-content: center;
     width: 110%;
-  }
+  } */
 
   /*---------------------------------------
     Homepage - Trainers
@@ -743,5 +768,9 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
 @media only screen and (min-width: 1023px) {
   .dropdown-content{
     display: none !important;
+  }
+  .flexbox-item-list-item{
+    width: 70%;
+    margin: auto;
   }
 }
