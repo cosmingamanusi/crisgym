@@ -61,7 +61,7 @@ if (document.location.href == 'http://crisgymfitness.ro/galerie') {
                             '<div class="grid-item"> <a href="/resources/photos/gallery/18.jpeg?v=1.5"><img class="gallery-image" id="18" src=" /resources/photos/gallery/18.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="18"></a> </div>' + 
                             '<div class="grid-item"> <a href="/resources/photos/gallery/19.jpeg?v=1.5"><img class="gallery-image" id="19" src=" /resources/photos/gallery/19.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="19"></a> </div>' + 
                             '<div class="grid-item"> <a href="/resources/photos/gallery/20.jpeg?v=1.5"><img class="gallery-image" id="20" src=" /resources/photos/gallery/20.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="20"></a> </div>' + 
-                            '<div class="grid-item"> <a href="/resources/photos/gallery/21.jpeg?v=1.5"><img class="gallery-image" id="21" src=" /resources/photos/gallery/21.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="21"></a> </div>';
+                            '<div class="grid-item"> <a href="/resources/photos/gallery/21.jpeg?v=1.5"><img class="gallery-image" id="21" src=" /resources/photos/gallery/21.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="21"></a> </div>' + 
                             '<div class="grid-item"> <a href="/resources/photos/prezentareSala.mp4?v=1.5"><video class="gallery-image" id="22" src=" /resources/photos/prezentareSala.mp4?v=1.5" autoplay controls muted loop style="height: 285px; width: 250px;" alt="22" </video></a> </div>';
     }
 }
