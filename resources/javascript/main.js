@@ -38,7 +38,8 @@ if (document.location.href == 'http://crisgymfitness.ro/galerie') {
                             '<div class="grid-item"><img class="gallery-image" id="19" onclick="showMyImage(this)" src="/resources/photos/gallery/19.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="19" /></div>' + 
                             '<div class="grid-item"><img class="gallery-image" id="20" onclick="showMyImage(this)" src="/resources/photos/gallery/20.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="20" /></div>' + 
                             '<div class="grid-item"><img class="gallery-image" id="21" onclick="showMyImage(this)" src="/resources/photos/gallery/21.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="21" /></div>' + 
-                            '<div class="grid-item"><video class="gallery-image" id="prezentareSala" onclick="showMyImage(this)" src="/resources/photos/prezentareSala.mp4?v=1.5" autoplay controls muted loop style="height: 285px; width: 250px;" alt="22" </video></div>';
+                            '<div class="grid-item"><img class="gallery-image" id="22" onclick="showMyImage(this)" src="/resources/photos/gallery/22.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="22" /></div>' + 
+                            '<div class="grid-item"><video class="gallery-image" id="prezentareSala" onclick="showMyImage(this)" src="/resources/photos/prezentareSala.mp4?v=1.5" autoplay controls muted loop style="height: 285px; width: 250px;" alt="23" </video></div>';
     } else {
         // console.log(screen.width + 'ceva');
         gallery.innerHTML = '<div class="grid-item"> <a href="/resources/photos/gallery/2.jpeg?v=1.5"><img class="gallery-image" id="2" src=" /resources/photos/gallery/2.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="2"></a> </div>' + 
@@ -62,7 +63,8 @@ if (document.location.href == 'http://crisgymfitness.ro/galerie') {
                             '<div class="grid-item"> <a href="/resources/photos/gallery/19.jpeg?v=1.5"><img class="gallery-image" id="19" src=" /resources/photos/gallery/19.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="19"></a> </div>' + 
                             '<div class="grid-item"> <a href="/resources/photos/gallery/20.jpeg?v=1.5"><img class="gallery-image" id="20" src=" /resources/photos/gallery/20.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="20"></a> </div>' + 
                             '<div class="grid-item"> <a href="/resources/photos/gallery/21.jpeg?v=1.5"><img class="gallery-image" id="21" src=" /resources/photos/gallery/21.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="21"></a> </div>' + 
-                            '<div class="grid-item"> <a href="/resources/photos/prezentareSala.mp4?v=1.5"><video class="gallery-image" id="prezentareSala" src=" /resources/photos/prezentareSala.mp4?v=1.5" autoplay controls muted loop style="height: 285px; width: 250px;" alt="22" </video></a> </div>';
+                            '<div class="grid-item"> <a href="/resources/photos/gallery/22.jpeg?v=1.5"><img class="gallery-image" id="22" src=" /resources/photos/gallery/22.jpeg?v=1.5" style="height: 285px; width: 250px;" alt="22"></a> </div>' + 
+                            '<div class="grid-item"> <a href="/resources/photos/prezentareSala.mp4?v=1.5"><video class="gallery-image" id="prezentareSala" src=" /resources/photos/prezentareSala.mp4?v=1.5" autoplay controls muted loop style="height: 285px; width: 250px;" alt="23" </video></a> </div>';
     }
 }
 
