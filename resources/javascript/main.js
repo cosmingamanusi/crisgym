@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
     }
 })
 
-if (document.location.href == 'http://crisgymfitness.ro/galerie') {
+if (document.location.href == 'http://crisgymfitness.ro/galerie' || document.location.href == 'https://crisgymfitness.ro/galerie') {
     const gallery = document.getElementById('gallery');
     if (screen.width < 1023) {
         // console.log(screen.width);
